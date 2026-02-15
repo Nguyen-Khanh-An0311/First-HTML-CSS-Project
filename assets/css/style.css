@@ -363,3 +363,115 @@ header {
     color: white;
 }
 
+/*---------------feedback--------------*/
+.feedback {
+    margin-top: 135px;
+    padding: 96px 0;
+    background: #2E2100;
+}
+
+.feedback-item {
+    display: flex;
+}
+
+.feedback-item .avatar{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item .info .member-name {
+    margin-top: 18px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: white;
+}
+
+.feedback-item .info .desc {
+    margin-top: 4px;
+    color: white;
+    font-size: 14px;
+    line-height: 1.86;
+}
+
+.feedback-item .dots {
+    display: flex;
+    gap: 6px;
+    margin-top: 28px;
+}
+
+.feedback-item .dot {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #634700;
+    cursor: pointer;
+}
+
+.feedback-item .content {
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback-item blockquote {
+    font-family: Poppins;
+    color: white;
+    font-style: Italic;
+    font-size: 2.6rem;
+    line-height: 1.54;
+}
+
+.feedback-item .dot.active {
+    background: var(--primary-color);
+}
+
+/*---------------features--------------*/
+
+.features {
+    margin-top: 135px;
+    padding: 65px 0px;
+}
+
+.features .body {
+    display: flex;
+}
+
+.features .images {
+    display: flex;
+    gap: 30px;
+}
+
+.features .images img {
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .lower {
+    margin-top: 34px;
+}
+
+.features .content {
+    width: 41%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.features .cta-btn {
+    margin-top: 32px;
+    width: 137px;
+    height: 50px;
+    background: var(--primary-color);
+}
